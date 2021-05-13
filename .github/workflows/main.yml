@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:    
-      - name: Run Test
+      - name: Print Run Test
         run : echo "Hello, Test"
         
         
@@ -18,5 +18,5 @@ jobs:
    runs-on: ubuntu-latest
    
    steps:
-     - name: Run Deploy
+     - name: Print Run Deploy
        run : echo "Hello, Deploy"
